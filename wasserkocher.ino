@@ -13,7 +13,7 @@ int currentTemperature = 0;
 bool isRunning = false;
 bool isDone = false;
 
-/*
+/**
 * Setup for the Arduino
 */
 void setup() {
@@ -24,7 +24,7 @@ void setup() {
     pinMode(DONE, OUTPUT);
 }
 
-/*
+/**
 * The loop that is constantly triggered
 */
 void loop() {
@@ -35,7 +35,7 @@ void loop() {
     toggleHeater();
 }
 
-/*
+/**
 * Sets the running boolean to true if not running and on button is pressed
 */
 void checkOnButton() {
@@ -46,7 +46,7 @@ void checkOnButton() {
     }
 }
 
-/*
+/**
 * Sets the running boolean to false if it is running and the off button is pressed
 */
 void checkOffButton() {
@@ -58,7 +58,7 @@ void checkOffButton() {
     }
 }
 
-/*
+/**
 * Checks if the heater has to be turned on or off and toggles it thereafter
 */
 void toggleHeater() {
@@ -74,7 +74,7 @@ void toggleHeater() {
     }
 }
 
-/*
+/**
 * fetches the current temperature from the temperature sensor
 * read from the port set by TEMP
 */
@@ -84,7 +84,7 @@ void setActualTemperature() {
     currentTemperature = map(tempRead, 0, 410, -50, 150);
 }
 
-/*
+/**
 * Measures the maximum temperature by the power returned
 * by the potentiometer on the port set by POTENTIOMETER
 */
