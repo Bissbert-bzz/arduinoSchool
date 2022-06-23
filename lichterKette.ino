@@ -1,3 +1,9 @@
+/*
+ * @Author Bissbert
+ * Reason for this project:
+ * I wanted to create a party led display that can be set to a few different patters.
+ * These different states could A) be used to indicate a state or B) to just have some fun party lights :)
+ */
 #include <Arduino.h>
 
 #define WAIT_BETWEEN 1000

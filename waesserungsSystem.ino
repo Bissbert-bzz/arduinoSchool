@@ -1,3 +1,10 @@
+/*
+ * @Author Bissbert
+ * Reason for this project:
+ * I wanted to create an irrigation system that can be controlled with a button.
+ * This can be used if you own a garden to water your plants without
+ * having to separately go to each of them and doing it manually.
+ */
 #include <Arduino.h>
 
 #define RELAYOUT 3

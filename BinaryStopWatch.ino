@@ -1,3 +1,11 @@
+/*
+ * @Author Bissbert
+ * Reason for this project:
+ * I wanted to create a watch that displays the time of the day in binary using leds.
+ * This is a clock and therefore can be used to tell the time.
+ * It is a type of watch developers own as a gimmick.
+ */
+
 #include <Arduino.h>
 
 int year = 0;

@@ -1,3 +1,10 @@
+/*
+ * @Author Bissbert
+ * Reason for this project:
+ * I wanted to simulate a water heater with a temperature gauge.
+ * This could be used for tea, coffee or any other hot/warm drink.
+ */
+
 #include <Arduino.h>
 
 #define TEMP A1
